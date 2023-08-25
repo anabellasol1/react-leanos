@@ -1,0 +1,12 @@
+.logoFarma {
+    width: 120px;
+}
+
+.nav-link{
+    font-size: 18px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.navbar-nav a:hover{
+    color: pink;
+}
