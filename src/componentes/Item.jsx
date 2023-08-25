@@ -9,7 +9,7 @@ export const Item = ({ name, description, price}) => {
       </div>
       <ul class="list-group list-group-flush">
         <li class="list-group-item">{price}</li>
-        <li class="list-group-item">Detalle</li>
+        <li class="list-group-item">Detalle producto</li>
       </ul>
       <div class="card-body">
         <a href="#" class="card-link">Card link</a>
