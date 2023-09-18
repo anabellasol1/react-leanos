@@ -8,10 +8,9 @@ export function ItemDetailContainer () {
     const [isLoading, setIsLoading] = useState(true);
     const [item, setItem] = useState([])
     const params = useParams()
-    console.log(params);
 
     useEffect (() => {
-        getItem(Number(params.id)).then((result) => { console.log(result);
+        getItem(Number(params.id)).then((result) => {
         setItem(...result);
         }).catch(error => console.log(error)).finally(() => setIsLoading(false))
     }, []);
@@ -21,9 +20,11 @@ export function ItemDetailContainer () {
     return (
         <main>
 
-            <ItemDetail 
+            <ItemDetail
+            id={item.id} 
             name={item.name}
             description={item.description}
+            stock={item.stock}
             price={item.price}/>
 
         </main>

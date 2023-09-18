@@ -18,20 +18,28 @@ export function NavBar () {
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
+        <Link to={"/category/Belleza"} >
           <a class="nav-link" href="#">Belleza</a>
+          </Link>
         </li>
         <li class="nav-item">
+        <Link to={"/category/Cuidado Personal"} >
           <a class="nav-link" href="#">Cuidado Personal</a>
+          </Link>
         </li>
         <li class="nav-item">
+        <Link to={"/category/Dermocosmética"} >
           <a class="nav-link" href="#">Dermocosmética</a>
+          </Link>
         </li>
         <li class="nav-item">
+        <Link to={"/category/Alimentos"} >
           <a class="nav-link" href="#">Alimentos</a>
+          </Link>
         </li>
       </ul>
     </div>
-    <div> <CartWidget item={10}/></div>
+    <div> <CartWidget/></div>
   </div>
 </nav>
     );
