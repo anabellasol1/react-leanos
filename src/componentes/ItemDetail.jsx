@@ -4,7 +4,7 @@ import { CartContext } from "../context/CartContex";
 import { Link } from "react-router-dom";
 
 
-export function ItemDetail({id, name, description, price, stock }) {
+export function ItemDetail({id, name, description, price, stock, image}) {
 
   const [quantityAdded, setQuantityAdded] = useState(0)
 
@@ -25,6 +25,7 @@ export function ItemDetail({id, name, description, price, stock }) {
     <div className="card" style={{ width: '18rem' }}>
       <div class="card-body">
         <h5 class="card-title">{name}</h5>
+        <img src={image} style={{ height: '16rem', width: '15rem' }} />
         <p class="card-text">{description}</p>
       </div>
       <ul class="list-group list-group-flush">

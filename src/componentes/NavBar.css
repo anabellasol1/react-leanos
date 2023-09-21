@@ -7,6 +7,11 @@
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+.navbar-nav a {
+    text-decoration:none;
+    font-size: 1.5rem;
+}
+
 .navbar-nav a:hover{
     color: pink;
 }

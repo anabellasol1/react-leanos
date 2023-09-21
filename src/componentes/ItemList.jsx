@@ -8,6 +8,7 @@ export function ItemList({ productosFetch }) {
           <Item  
           key={producto.id}
           id={producto.id}
+          image={producto.image}
           name={producto.name} 
           description={producto.description} 
           price={producto.price} />

@@ -1,0 +1,13 @@
+.formularioCliente {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+}
+
+.formularioCliente input {
+    padding: 0.5rem;
+    width: 18rem;
+    border-radius: 1rem;
+    border: 2px solid black;
+}

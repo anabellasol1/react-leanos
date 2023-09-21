@@ -1,3 +1,5 @@
+/* API simulada */
+
 const data = [
     {
         id: 1,
